@@ -16,7 +16,7 @@ async def answer(bot, query):
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='You have to subscribe my channel to use the bot',
+                           switch_pm_text='🎬 You have to subscribe Movies channel to use the bot 🎬',
                            switch_pm_parameter="subscribe")
         return
 
@@ -89,12 +89,12 @@ async def answer(bot, query):
 
 def get_reply_markup(query):
     buttons = [[
-        InlineKeyboardButton('Support Group', url='t.me/Mo_Tech_Group'),
-        InlineKeyboardButton('More Botz', url='t.me/MT_Botz')
+        InlineKeyboardButton('🖥️ Movies 🖥️', url='t.me/PrimeFlixMovies'),
+        InlineKeyboardButton('⭐ Tv Series ⭐', url='t.me/TvseriesCollectionsPrimeflix')
         ],[
-        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+        InlineKeyboardButton('🖥️ Movies 🖥️', url='t.me/PrimeFlixMovies')
         ],[
-        InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat=query)
+        InlineKeyboardButton('🔍 Tv Series 🔎', url=',t.me/TvseriesCollectionsPrimeflix')
         ]]
     return InlineKeyboardMarkup(buttons)
 
