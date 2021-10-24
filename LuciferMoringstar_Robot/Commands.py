@@ -112,10 +112,9 @@ async def start(bot, message):
             )
         )
     else:
-        await message.reply_text(
-            START_MSG,
-            parse_mode="Markdown",
-            disable_web_page_preview=True,
+        await message.reply_photo(
+            photo="https://telegra.ph/file/3002281196303098ed719.jpg",
+            caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("🖥️ Movies 🖥️", url='t.me/PrimeFlixMovies'),
