@@ -11,33 +11,23 @@ from .Channel import (
 )
 
 HELP = """
-Basic Commads
-
-/start :- check am Alive
-
-PrimeFlix
-Since 2021
-
-PrimeFlix
-PrimeFlix
-PrimeFlix
-PrimeFlix
-PrimeFlix
-PrimeFlix
-
-[🖥️ More Movies 🖥️](https://t.me/PrimeFlixMovies)
-
-@PrimeFlix_Movies
+<b>നീ ഏതാ..... ഒന്ന് പോടെയ് അവൻ help ചോയ്ച്ച് വന്നിരിക്കുന്നു😤...I'm Different Bot U Know<b>
 """
 
 ABOUT = """
-➥ Name :  Auto Filter With IMDB
+<b>○ ᴍʏ ɴᴀᴍᴇ :  ᴍɪʟʟɪᴇ ʙᴏʙʙʏ ʙʀᴏᴡɴ
     
-➥ Creator : [Cyber Dom](t.me/Cyber_Dom)
+○ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ
 
-➥ Language : Python3
+○ ғʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏʀᴏɢʀᴀᴍ
 
-➥ Library : Pyrogram Asyncio 1.13.0
+○ sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ
 
-➥ Source Code : [Click Me](https://github.com/odysseusmax/animated-lamp)
-"""
+○ ᴠᴇʀsɪᴏɴ : 1.0.0
+
+○ ᴄʀᴇᴀᴛᴏʀ : 𝐖𝐢𝐫𝐞𝐥𝐞𝐬𝐬⛕
+
+○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : 🔐
+
+ᴜᴘᴅᴀᴛᴇ ᴏɴ 6-7-21 ɪɴᴅɪᴀɴ ᴛɪᴍᴇ 4:48 ᴘᴍ
+"""<b>
