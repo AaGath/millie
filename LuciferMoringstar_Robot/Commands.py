@@ -84,10 +84,10 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🕵️ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 🕵️', url='https://t.me/Cyber_Dom')
+                        InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲𝘀 🎬', url='https://t.me/PrimeFlix_Movies')
                     ],
                     [
-                        InlineKeyboardButton('🗽 Tv Series 🗽', url='t.me/TvseriesCollectionsPrimeflix')
+                        InlineKeyboardButton('💢 𝗧𝗩 𝗦𝗲𝗿𝗶𝗲𝘀 💢', url='t.me/TvseriesCollectionsPrimeflix')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -117,8 +117,8 @@ async def start(bot, message):
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("🕵️ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 🕵️", url='https://t.me/Cyber_Dom'),
-                InlineKeyboardButton("🗽 TV Series 🗽", url="https://t.me/TvseriesCollectionsPrimeflix")
+                InlineKeyboardButton("🎬 𝗠𝗼𝘃𝗶𝗲𝘀 🎬", url='https://t.me/PrimeFlix_Movies'),
+                InlineKeyboardButton("💢 𝗧𝗩 𝗦𝗲𝗿𝗶𝗲𝘀 💢", url="https://t.me/TvseriesCollectionsPrimeflix")
                 ],[
                 InlineKeyboardButton("Help", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
@@ -333,8 +333,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('🕵️ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 🕵️', url='https://t.me/Cyber_Dom'),
-            InlineKeyboardButton('🗽 TV Series 🗽', url='https://t.me/TvseriesCollectionsPrimeflix')
+            InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲𝘀 🎬', url='https://t.me/PrimeFlix_Movies'),
+            InlineKeyboardButton('💢 𝗧𝗩 𝗦𝗲𝗿𝗶𝗲𝘀 💢', url='https://t.me/TvseriesCollectionsPrimeflix')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
