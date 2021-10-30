@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲𝘀 🎬', url='https://t.me/PrimeFlix_Movies')
+                        InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲𝘀 🎬', url='https://t.me/PrimeFlixMovies')
                     ],
                     [
                         InlineKeyboardButton('💢 𝗧𝗩 𝗦𝗲𝗿𝗶𝗲𝘀 💢', url='t.me/TvseriesCollectionsPrimeflix')
@@ -117,7 +117,7 @@ async def start(bot, message):
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("🎬 𝗠𝗼𝘃𝗶𝗲𝘀 🎬", url='https://t.me/PrimeFlix_Movies'),
+                InlineKeyboardButton("🎬 𝗠𝗼𝘃𝗶𝗲𝘀 🎬", url='https://t.me/PrimeFlixMovies'),
                 InlineKeyboardButton("💢 𝗧𝗩 𝗦𝗲𝗿𝗶𝗲𝘀 💢", url="https://t.me/TvseriesCollectionsPrimeflix")
                 ],[
                 InlineKeyboardButton("Help", callback_data="help"),
@@ -333,7 +333,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲𝘀 🎬', url='https://t.me/PrimeFlix_Movies'),
+            InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲𝘀 🎬', url='https://t.me/PrimeFlixMovies'),
             InlineKeyboardButton('💢 𝗧𝗩 𝗦𝗲𝗿𝗶𝗲𝘀 💢', url='https://t.me/TvseriesCollectionsPrimeflix')
         ]
         ]
