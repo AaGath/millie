@@ -286,7 +286,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('🕵️ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 🕵️', url='https://t.me/Cyber_Dom'),
+                    InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲𝘀 🎬', url='https://t.me/PrimeFlixMovies'),
                     InlineKeyboardButton('🗽 𝗧𝘃 𝗦𝗲𝗿𝗶𝗲𝘀 🗽', url=f't.me/TvseriesCollectionsPrimeflix')
                 ]
                 ]
@@ -310,7 +310,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🕵️ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 🕵️', url='https://t.me/Cyber_Dom')
+                        InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲𝘀 🎬', url='https://t.me/PrimeFlixMovies')
                     ]
                     ]
                 
@@ -341,7 +341,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🕵️ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 🕵️', url='https://t.me/Cyber_Dom')
+                        InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲𝘀 🎬', url='https://t.me/PrimeFlixMovies')
                     ]
                     ]
                 
