@@ -120,8 +120,10 @@ async def start(bot, message):
                 InlineKeyboardButton("🎬 𝗠𝗼𝘃𝗶𝗲𝘀 🎬", url='https://t.me/PrimeFlixMovies'),
                 InlineKeyboardButton("💢 𝗧𝗩 𝗦𝗲𝗿𝗶𝗲𝘀 💢", url="https://t.me/TvseriesCollectionsPrimeflix")
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton('♻️ Join Our Main Channel ♻️', url=f'http://t.me/NewMoviesPF')
+                ],[
+                InlineKeyboardButton("💡Help", callback_data="help"),
+                InlineKeyboardButton("📡About", callback_data="about")
                 ]]
             )
         )
